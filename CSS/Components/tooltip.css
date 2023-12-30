@@ -1,0 +1,17 @@
+.tooltiptext{
+    background-color: black;
+    border : 1px solid black;
+    border-radius:  10px;
+    color: #fff;
+    left : 85%;
+    position:absolute;
+    top: 30px;
+    visibility: hidden;
+    width : 200px;
+    z-index: 1;
+    
+}
+
+.hoverDiv:hover .tooltiptext{
+    visibility: visible;
+}

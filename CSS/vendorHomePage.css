@@ -1,0 +1,6 @@
+@import "Components/basicGlobalStyles.css";
+@import "Components/List.css";
+
+.divpadding {
+    padding : 35px;
+}

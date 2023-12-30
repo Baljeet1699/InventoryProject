@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            position : relative;
+        }
+        .blackBox{
+            position : relative;
+            width : 300px;
+            height: 200px;
+            border : 1px solid black;
+            z-index: 1;
+        }
+
+        .greyBox{
+            position : absolute;
+            width: 100px;
+            height: 50px;
+            border : 1px solid grey;
+            z-index: 2;
+        }
+
+        .greenBox{
+            position : absolute;
+            width : 50px;
+            height:  50px;
+            border : 1px solid green;
+            background-color: green;
+            z-index: 3;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="blackBox">Black Box</div>
+        <div class="greyBox">Grey Box</div>
+        <div class="greenBox">Green Box</div>
+    </div>
+</body>
+</html>

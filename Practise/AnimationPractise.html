@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #first {
+
+            width : 200px;
+            height: 200px;
+            background-color: red;
+            border : 1 px solid black;
+            position: relative;
+            animation-name: first;
+            animation-duration: 2s;
+            display: inline-block;
+        }
+
+        #second {
+
+            width : 200px;
+            height: 200px;
+            background-color: red;
+            border : 1 px solid black;
+            position: relative;
+            animation-name: second;
+            animation-duration: 2s;
+            float: right;
+            
+        }
+
+        @keyframes first {
+
+            50% {
+                left:0px;top:0px;
+                opacity: 1;
+            }
+            100% {
+                left : 40%;top:0px;
+                opacity: 0;
+            }
+            
+        }
+
+        
+        @keyframes second {
+
+            50% {
+                right:0px;top:0px;
+                opacity: 1;
+            }
+            100% {
+                right : 40%;top:0px;
+                opacity: 0;
+            }
+
+        }
+    </style>
+
+
+</head>
+<body>
+    
+    <div id="first"></div>
+    <div id="second"></div>
+</body>
+</html>

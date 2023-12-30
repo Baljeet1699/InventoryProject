@@ -1,0 +1,10 @@
+@import "Components/basicGlobalStyles.css";
+@import "Components/table.css";
+@import "Components/List.css";
+@import "Components/pagination.css";
+
+.flex-container {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}

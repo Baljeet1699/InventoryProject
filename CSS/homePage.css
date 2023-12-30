@@ -1,0 +1,62 @@
+@import "Components/basicGlobalStyles.css";
+@import "Components/List.css";
+@import "Components/tooltip.css";
+@import "Components/dropdown.css";
+
+/* || Variables */
+
+:root{
+    --formOfBlue : rgb(48, 107, 107);
+}
+
+@media screen and (max-width : 600px){  
+    li {
+        float : none;
+        width : 100%;
+    }   
+}
+
+.active{
+    background-color: var(--formOfBlue);
+    color : black;
+}
+
+div>a:hover{
+    text-decoration : none;
+}
+
+.list-style-type-none {
+    list-style-type: none;
+}
+
+.flex-container-header {
+    display : flex;
+    flex-direction: row;
+}
+
+.flex-container-header-div {
+    display : flex;
+    flex-direction: row;
+}
+
+@media (max-width:800px){
+    .flex-container-header{
+        flex-direction: column;
+    }
+}
+
+.flex-container {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: flex-start;
+    
+}
+
+.flex-div {
+    align-items: center;
+    display : flex;
+    justify-content: center;
+}
+
+
+

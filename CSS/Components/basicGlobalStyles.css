@@ -1,0 +1,19 @@
+.border-grey {
+    border : 1px solid grey;
+}
+
+.border-white {
+    border : 1px solid white;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.display-inline {
+    display: inline-block;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}

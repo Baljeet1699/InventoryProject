@@ -1,0 +1,28 @@
+@import "Components/basicGlobalStyles.css";
+@import "Components/List.css";
+@import "Components/dropdown.css";
+
+
+.header {
+    background-color: grey;
+    height: 75px;
+    position:sticky;
+    top: 0;
+}
+
+.header__imageblock {
+    width:130px;
+    height:40px;
+}
+
+.header__userprofile {
+    width:130px;
+    height:40px;
+    float:right;
+}
+
+.header__notification {
+    width:55px;
+    height:40px;
+    float:right;
+}

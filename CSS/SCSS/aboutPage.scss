@@ -1,0 +1,48 @@
+ul{
+    list-style-type: none;
+}
+li{
+    float : left;
+    border : 1px solid white;
+    background-color: #96D4D4;
+}
+
+li {
+    a{
+        display: inline-block;
+        padding: 25px 55px;
+        color: black;
+    }
+    a:hover{
+        background-color: rgb(48, 107, 107);
+        color : black;
+        font-family: fantasy;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+}
+
+div>a:hover{
+    text-decoration : none;
+}
+
+.border-grey {
+    border : 1px solid grey;
+}
+
+.border-white {
+    border : 1px solid white;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.display-inline {
+    display: inline-block;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}

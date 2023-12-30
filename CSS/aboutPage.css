@@ -1,0 +1,7 @@
+@import "Components/basicGlobalStyles.css";
+@import "Components/List.css";
+
+div>a:hover{
+    text-decoration : none;
+}
+
